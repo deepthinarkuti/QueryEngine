@@ -1,9 +1,9 @@
 
 Project Overview:
-Facilitate the users to enter commands through command prompt and provide results to the user by querying the data from the CSV files based on the requirement specified in the input commands
+Facilitate the users to enter commands through command prompt and provide query results to the user by querying the data from the CSV files. SELECT, FROM, ORDERBY, COUNTBY, JOIN, TAKE(limit) queries are executed for this project
 Approach:
-Read the data from the command prompt, parse the data and identify the query requested by the user. Execute the query on the CSV files by converting the data to the data frames and accessing/querying the data according to the required input command.
-Retrieved the resultant data from the CSV files and displayed the results in the command prompt to the user
+Read the data from the command prompt, parse the data and identify the query requested by the user. Execute the query on the CSV files by converting the data to the data frames and accessing/querying the data according to the input command provided.
+Retrieved the resultant data from the CSV files and display the results in the command prompt to the user
 
 Design Decisions:
 I have considered various approaches for querying the CSV files. One was using a backend database.
